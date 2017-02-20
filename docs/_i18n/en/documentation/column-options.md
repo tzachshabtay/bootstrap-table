@@ -145,7 +145,7 @@ The column options is defined in `jQuery.fn.bootstrapTable.columnDefaults`.
         <td>data-switchable</td>
         <td>Boolean</td>
         <td>true</td>
-        <td>False to disable the switchable of columns item.</td>
+        <td>False to disable the switchable of columns item. If the show/hide columns dropdown is visible (can be toggled with showColumns=true on the table), then switchable will show/hide the column from the dropdown (i.e it will be possible to switch the column visibility from the columns dropdown).</td>
     </tr>
     <tr>
         <td>clickToSelect</td>
